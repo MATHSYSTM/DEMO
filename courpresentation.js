@@ -110,7 +110,7 @@ document.querySelector("#couvr").addEventListener("click",()=>{let rtn=0;let dfl
 if(rtn==1){window.scrollBy(0,-20);dfl=dfl-20;if(dfl==0){rtn=0;}} },100);*/});
 
 
-});
+
 
  
 
