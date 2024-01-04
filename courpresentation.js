@@ -84,12 +84,10 @@ CLI.style.top=""+Math.round((haut-CLI.offsetHeight)/3)+"px";
 let intv=setInterval(()=>{if(larg>=800){
  CLI.style.color="rgba(100%,10%,100%,1)";
   
- 
- 
 if(ftsz==60){flag=1;}if(ftsz==40){flag=0;}
 if(ftsz>=40&&ftsz<60&&flag==0){ftsz++;CLI.style.fontSize=""+ftsz+"px"; }
 if (ftsz<=60&&ftsz>40&&flag==1){ftsz--;CLI.style.fontSize=""+ftsz+"px";}
-
+}
  /*(ftsz==60){flag=1;}if(ftsz==40){flag=0;}
 if(ftsz>=40&&ftsz<60&&flag==0){ftsz++;CLI.style.fontSize=""+ftsz+"px";}
 if (ftsz<=60&&ftsz>40&&flag==1){ftsz--;CLI.style.fontSize=""+ftsz+"px";}*/
@@ -101,7 +99,7 @@ if(larg<800){let clsvp;
  if(ftsz==90){flag=1;}if(ftsz==60){flag=0;}
 if(ftsz>=60&&ftsz<90&&flag==0){ftsz++;CLI.style.fontSize=""+ftsz+"px"; }
 if (ftsz<=90&&ftsz>60&&flag==1){ftsz--;CLI.style.fontSize=""+ftsz+"px";}
-
+}
  /*CLI.style.left=""+Math.round((haut-CLI.offsetWidth)/2)+"px";*/}
                           
                          },100);
