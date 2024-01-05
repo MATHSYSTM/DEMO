@@ -67,6 +67,7 @@ let ob=0;
 let larg=screen.availWidth;
 let haut=screen.availHeight;
  document.querySelector("#couvr").style.height=""+(window.screen.height)+"px";
+ document.querySelector("#cov").style.top=""+(window.screen.height)+"px";
 let navi=document.querySelector("#nv1");
 let suj=document.querySelector("#tab");
 
