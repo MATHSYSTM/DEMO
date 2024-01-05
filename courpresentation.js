@@ -66,7 +66,7 @@ for(let g=0;g<14;g++){for(let q=1;q<=3;q++){sndtab[18+3*g+q]=document.querySelec
 let ob=0;
 let larg=screen.availWidth;
 let haut=screen.availHeight;
- document.querySelector("#couvr").style.height=""+Screen.height+"px";
+ document.querySelector("#couvr").style.height=""+screen.height+"px";
 let navi=document.querySelector("#nv1");
 let suj=document.querySelector("#tab");
 
