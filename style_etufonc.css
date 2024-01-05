@@ -745,7 +745,7 @@ top: 0px;right: 0px;
  border: 1px solid rgba(0%,100%,50%,1); }
 
 #cov{background-color: rgba(0%,0%,0%,1);height: 14000px;width:100%; 
-}
+z-index:2;}
 
 #clic{ display:block; }
 
