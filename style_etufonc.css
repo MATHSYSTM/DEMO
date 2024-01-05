@@ -2,7 +2,7 @@
 
 
 
-body{background-color: rgba(30%,30%,30%,0.6); display: flex; justify-content: center;}
+body{background-color: rgba(30%,30%,30%,0.6); display: flex; justify-content: center; flex-direction:column;}
 #nv1{background-color: rgba(0%,50%,80%,1); position: absolute;height: 13600px;width:800px;}
 
 
@@ -744,7 +744,8 @@ display:flex;justify-content:center;align-items:center;
 top: 0px;right: 0px;
  border: 1px solid rgba(0%,100%,50%,1); }
 
-
+#cov{background-color: rgba(0%,0%,0%,1);height: 14000px;width:100%; 
+}
 
 #clic{ display:block; }
 
