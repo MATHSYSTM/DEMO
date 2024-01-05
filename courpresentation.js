@@ -66,6 +66,7 @@ for(let g=0;g<14;g++){for(let q=1;q<=3;q++){sndtab[18+3*g+q]=document.querySelec
 let ob=0;
 let larg=screen.availWidth;
 let haut=screen.availHeight;
+ document.querySelector("#couvr").style.height=""+haut+"px";
 let navi=document.querySelector("#nv1");
 let suj=document.querySelector("#tab");
 
@@ -106,6 +107,7 @@ if (ftsz<=90&&ftsz>60&&flag==1){ftsz--;CLI.style.fontSize=""+ftsz+"px";}
 let nxtph=document.querySelector("#nxtphs");
 nxtph.style.left=""+0+"px";
 document.querySelector("#couvr").addEventListener("click",()=>{let rtn=0;let dfl=0;clearInterval(intv);sndtab[0].play();sndnum[0]=1;
+ document.querySelector('body').removeChild(document.querySelector('#cov'));                                                              
 /*let scrl=setInterval(()=>{if(rtn==0){window.scrollBy(0,20);dfl=dfl+20;if(dfl==12000){rtn=1;}}
 if(rtn==1){window.scrollBy(0,-20);dfl=dfl-20;if(dfl==0){rtn=0;}} },100);*/});
 
