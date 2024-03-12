@@ -734,7 +734,7 @@ top: 0px;color:white;font-size:20px;font-family:Arial;display:flex;
 #sbmt{background-color:rgba(0%,30%,100%,1);color:white;}
 
 
-#couvr{background-color: rgba(0%,0%,0%,1);position: absolute;height: 14000px;width:100%; 
+#couvr{background-color: rgba(0%,0%,0%,1);position: fixed;height: 14000px;width:100%; 
 top: 0px;color:white;font-size:20px;font-family:Arial;
 display:flex;justify-content:center;align-items:center;
  
