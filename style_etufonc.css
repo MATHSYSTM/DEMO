@@ -738,7 +738,7 @@ top: 0px;color:white;font-size:20px;font-family:Arial;display:flex;
 top: 0px;color:white;font-size:20px;font-family:Arial;
 display:flex;justify-content:center;align-items:center;
  
- border: 1px solid rgba(100%,0%,50%,1);z-index:4; }
+ border: none;z-index:4; }
 
 #svcouvr{background-color: rgba(0%,0%,0%,1);position: absolute;width:100%; 
 top: 0px;right: 0px;
