@@ -1,5 +1,5 @@
 let ns="http://www.w3.org/2000/svg";let crtob=0;let nxt=1;let nxtexo=1;let selection=23;
-let photocour=[0,1,0,0,0];
+let photocour=[0,1,0,0,0];var gatekey=0;
 function get_ord1(idt){rang=parseInt(idt[idt.length-1]);}
 function get_ord2(idt){ let f=parseInt(idt[idt.length-2]+idt[idt.length-1]);
  rang=f+4;}
